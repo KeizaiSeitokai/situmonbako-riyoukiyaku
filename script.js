@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const contentArea = document.getElementById('content');
 
-    // content.mdファイルを読み込む
-    fetch('content.md')
+    // content.mdファイルをキャッシュを無視して読み込む
+    fetch('content.md?t=' + new Date().getTime())
         .then(response => {
             if (!response.ok) {
                 throw new Error('Markdownファイルの読み込みに失敗しました。');
