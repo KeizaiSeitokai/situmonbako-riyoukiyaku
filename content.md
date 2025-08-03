@@ -60,5 +60,4 @@
 
 **代表：平沢勇巳**
 
-**https://keizaiseitokai.github.io/-/**
 
